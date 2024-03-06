@@ -22,7 +22,6 @@ class PrintPattern
 }
 // } Driver Code Ends
 
-
 class GfG
 {
     void printPat(int n)
