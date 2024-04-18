@@ -25,6 +25,8 @@ class GFG {
 // } Driver Code Ends
 
 
+
+
 class Solution {
     int missingNumber(int array[], int n) {
         // Your Code Here
