@@ -31,14 +31,17 @@ class GFG {
 // } Driver Code Ends
 
 
+
+
 //User function Template for Java
 
 class Solution{
-    public static int kthSmallest(int[] arr, int l, int r, int k) 
-    { 
-        //Your code here
-        Arrays.sort(arr);
-        int f=arr[k-1];
-      
-        return f;    } 
+public static int kthSmallest(int[] arr, int l, int r, int k) 
+    {
+
+        Arrays.sort(arr);   // this will sort the array
+        
+        return arr[k-1];   // k-1 because, index start from 0,1,.. so if we need 3rd largest it is located in the 2nd index
+
+    } 
 }
