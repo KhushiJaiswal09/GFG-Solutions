@@ -22,13 +22,13 @@ class GFG {
                 System.out.print(num + " ");
             }
             System.out.println();
+            System.out.println("~");
         }
     }
 }
 
+
 // } Driver Code Ends
-
-
 class Solution {
     // Function to sort an array of 0s, 1s, and 2s
     public void sort012(int[] arr) {
@@ -36,3 +36,6 @@ class Solution {
         Arrays.sort(arr);
     }
 }
+
+//{ Driver Code Starts.
+// } Driver Code Ends
